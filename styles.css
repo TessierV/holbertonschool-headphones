@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('./assets/font/source-sans-pro/SourceSansPro-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spin-Cycle-OT';
+    src: url('./assets/font/Spin-Cycle-OT/spincycle_ot.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
