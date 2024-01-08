@@ -62,7 +62,6 @@ body {
     background-color: var(--secondary-color);
 }
 
-
 button {
     border-radius: 22px;
     background-color: var(--accent-color);
@@ -210,11 +209,7 @@ button:hover {
     top: 0;
 }
 
-
-
-
 /*Banner*/
-
 #banner {
     width: 100%;
     min-height: 1050px;
@@ -251,8 +246,6 @@ button:hover {
     text-align: center;
 }
 
-
-
 #home h1 {
     color: var(--primary-color);
     font-size: var(--high-text);
@@ -285,7 +278,6 @@ button:hover {
 }
 
 /*media query*/
-
 @media (max-width: 480px) {
     #home {
         width: 95%;
@@ -294,9 +286,6 @@ button:hover {
     #home h1 {
         padding-top: 7rem;
     }
-
-
-
 }
 
 @media (max-width: 767px) {
