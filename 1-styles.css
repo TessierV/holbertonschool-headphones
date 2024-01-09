@@ -212,6 +212,11 @@ button:hover {
 .section {
     width: 100%;
     z-index: 1;
+
+}
+
+.pad{
+    padding: 8rem 0;
 }
 
 .section_container {
@@ -227,7 +232,6 @@ button:hover {
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    padding-top: 5rem;
 }
 
 .section-text {
@@ -239,12 +243,22 @@ button:hover {
     padding: 3rem 0;
 }
 
+
+/*column*/
+.column-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /*home*/
 
 #home {
     color: var(--primary-color);
-    min-height: 1050px;
-
+    height: 100vh;
 }
 
 .home-title {
@@ -280,32 +294,19 @@ button:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 1050px;
+    height: 100vh;
     background-color: transparent;
     filter: grayscale(100%);
     flex-shrink: 0;
     z-index: -1;
     background-repeat: no-repeat;
     background-position: 35% 75%;
-
 }
-
 
 /*What wedo */
 #whatwedo {
     background-color: #F2F2F2;
     color: #071629;
-    padding: 5rem 0;
-}
-
-.column-container {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 3rem;
 }
 
 .whatwedo-container .whatwedo-column .whatwedo-icon:before {
@@ -314,7 +315,6 @@ button:hover {
     font-size: 90px;
     color: #FF6565;
 }
-
 
 .whatwedo-column:nth-child(1) .whatwedo-icon:before {
     content: "\e90e";
@@ -344,8 +344,6 @@ button:hover {
     padding-bottom: 3rem;
 
 }
-
-
 
 /*media query*/
 @media (max-width: 480px) {

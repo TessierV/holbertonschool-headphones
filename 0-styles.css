@@ -212,7 +212,7 @@ button:hover {
 /*Banner*/
 #banner {
     width: 100%;
-    min-height: 1050px;
+    height: 100vh;
     background: radial-gradient(ellipse at 30% 18.1%, rgba(41, 48, 61, 0.00) 0%, var(--secondary-color) 68%);
     background-blend-mode: normal, color;
     background-size: cover;
@@ -225,7 +225,7 @@ button:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 1050px;
+    height: 100vh;
     background-color: transparent;
     filter: grayscale(100%);
     content: "";
