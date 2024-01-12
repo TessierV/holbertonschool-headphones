@@ -215,7 +215,7 @@ button:hover {
 
 }
 
-.pad{
+.pad {
     padding: 8rem 0;
 }
 
@@ -305,15 +305,15 @@ button:hover {
 
 /*What wedo */
 #whatwedo {
-    background-color: #F2F2F2;
-    color: #071629;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .whatwedo-container .whatwedo-column .whatwedo-icon:before {
     font-family: 'holberton_school-icon';
     content: "\e90e";
     font-size: 90px;
-    color: #FF6565;
+    color: var(--accent-color);
 }
 
 .whatwedo-column:nth-child(1) .whatwedo-icon:before {

@@ -257,6 +257,9 @@ button:hover {
 }
 
 /*home*/
+.logo:hover{
+    opacity: 0.9;
+}
 
 #home {
     color: var(--primary-color);
@@ -354,7 +357,7 @@ button:hover {
 }
 
 .whatwedo-icon {
-    transition: scale 0.3s ease-in-out;
+    transition: scale 0.3s ease-out;
 }
 
 /*Result*/
@@ -366,7 +369,6 @@ button:hover {
     background: radial-gradient(ellipse at 30% 18.1%, rgba(41, 48, 61, 0.00) 0%, var(--secondary-color) 68%);
     background-blend-mode: normal, color;
     height: auto;
-
 }
 
 #results::before {
@@ -382,6 +384,7 @@ button:hover {
     flex-shrink: 0;
     z-index: -1;
     background-repeat: no-repeat;
+
 }
 
 .results-column {
@@ -407,6 +410,7 @@ button:hover {
     background: var(--accent-color);
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     z-index: -1;
+    transition: scale 0.3s ease-out;
 }
 
 .results-column-title {
@@ -494,11 +498,15 @@ footer {
     content: "\e90a";
 }
 
+.footer-subcolumn:hover{
+    color: #FF6565;
+    transition: color 0.3s ease-out;
+}
+
 .copyrigth {
     text-align: center;
     color: #979797;
 }
-
 
 /*media query*/
 @media (max-width: 480px) {
@@ -547,6 +555,7 @@ footer {
         flex-basis: 90%;
         transform: translateX(-5%);
     }
+
 
     #home h1 {
         padding-top: 70%;
